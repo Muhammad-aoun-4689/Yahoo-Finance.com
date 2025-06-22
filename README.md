@@ -26,7 +26,6 @@ Before running this script, ensure you have the following installed:
   * **pip:** Python's package installer (usually comes with Python).
   * **Google Chrome Browser:** Required for Selenium.
   * **ChromeDriver:** The WebDriver for Chrome. Make sure its version matches your Chrome browser's version and that `chromedriver.exe` (or `chromedriver` on Linux/macOS) is in your system's PATH.
-      * You can download ChromeDriver from [here](https://chromedriver.chromium.org/downloads).
 
 ## Installation
 
@@ -110,4 +109,12 @@ The script is designed with robustness in mind:
   * **`finally` Blocks:** Ensure that the WebDriver is properly closed (`driver.quit()`) even if exceptions occur during the scraping process.
   * **Informative Logs:** Check your console or notebook output for detailed log messages, which are invaluable for debugging.
 
------
+    ## Contributing
+
+Feel free to fork the repository, make improvements, and submit pull requests.
+
+## License
+
+This project is open-source and available under the [MIT License].
+
+```
